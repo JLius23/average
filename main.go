@@ -3,9 +3,9 @@ package main
 
 import (
 	"fmt"
-	"example.com/aaverage/datafile"
+	"github.com/JLuis23/aaverage/datafile"
 	"log"
-	"github.com/gorilla/mux"
+	//"github.com/gorilla/mux"
 )
 func main () {
 	numbers, err := datafile.GetFloats("data.txt")
